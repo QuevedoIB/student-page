@@ -191,7 +191,7 @@ p.insetBorder {
     "project1 project2 project3";
 }
 
-#Projects h1 {
+#Projects div {
   grid-area: header;
   align-self: center;
   justify-self: center;
@@ -231,6 +231,7 @@ article p {
   grid-template-areas: "head" "form";
   align-items: center;
   justify-items: center;
+  padding-bottom: 20px;
 }
 
 #Comments h3 {
@@ -246,4 +247,53 @@ article p {
 
 #Comments form p {
   font-size: 20px;
+}
+
+.commentButton {
+  margin-left: 170px;
+  margin-top: 10px;
+  font-size: 20px;
+  background: #b9cdda;
+  border-color: #639fab;
+  border-radius: 20px;
+  width: 80px;
+  height: 30px;
+}
+
+form button:hover {
+  background-color: #639fab;
+}
+
+footer {
+  margin: 0;
+  background-color: #98cbb4;
+  color: #222222;
+}
+
+.footerTitle {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footerTitle h3 {
+  font-size: 24px;
+  text-decoration: underline dotted #222222;
+}
+
+.footerList {
+  justify-self: center;
+}
+
+.footerList li {
+  display: inline-block;
+  margin-right: 15px;
+  list-style-type: none;
+}
+
+.footerList li a img:hover {
+  width: 60px;
+  height: 60px;
 }
