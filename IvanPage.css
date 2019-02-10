@@ -249,15 +249,24 @@ article p {
   font-size: 20px;
 }
 
+.formBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .commentButton {
-  margin-left: 170px;
-  margin-top: 10px;
+  align-self: center;
   font-size: 20px;
   background: #b9cdda;
   border-color: #639fab;
   border-radius: 20px;
   width: 80px;
   height: 30px;
+}
+
+form hr {
+  width: 100%;
 }
 
 form button:hover {
